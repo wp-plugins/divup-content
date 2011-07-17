@@ -108,7 +108,7 @@ Some content on this page. Some content on this page. Some content on this page.
 
 Some content on this page. Some content on this page. Some content on this page. Some content on this page. Some content on this page. Some content on this page. Some content on this page. 
 
-For usage and more info, visit <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">sebastianwebb.co.uk</a>.
+For usage and more info, visit <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">sebastianwebb.co.uk/wordpress-plugins.html</a>.
 
 == Frequently Asked Questions ==
 
@@ -185,3 +185,5 @@ You could then create a number of different column layouts by only changing the 
 .div-1, div-4 { 
 	margin-right:0; 
 }
+
+For more advanced layouts, the 'diff' class has got you covered. More information on <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">the plugin docs page</a>.
