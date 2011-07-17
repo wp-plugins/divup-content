@@ -119,71 +119,9 @@ Yes. Just send an email, and I'd be happy to help
 <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">Visit DivUp Content Info Page</a>.
 
 == Screenshots ==
-
-This is an example of how you could use the [divup] shorcode in your markup:
-
-wysiwyg-divup-screenshot.gif
-
-Given the markup above, this is how it would wrap your content in divs with automatic and custom classes and ids (firebug screenshot):
-
-firebug-divup-screenshot.gif
-
-You could then create a number of different column layouts by only changing the CSS (note: the custom classes and ids aren't necessary for creating the following grid layouts, they're just there to show you that you can add custom classes and ids if you want to).
-
-= 4 columns in one row =
-
-4x1.gif
-
-/* 4x1 */
-.divup-wrap { 
-	overflow:hidden; 
-} 
-.divup { 
-	float:left;
-	width:145px;
-	margin-right:20px; 
-} 
-.mul-4 { 
-	margin-right:0; 
-}
-
-= 2 columns, 2 rows =
-
-2x2.gif
-
-/* 2x2 */
-.divup-wrap { 
-	overflow:hidden; 
-} 
-.divup { 
-	float:left;
-	width:310px;
-	margin-right:20px;
-	margin-bottom:20px; 
-} 
-.div-even { 
-	margin-right:0; 
-}
-
-= 3 columns, top row is full width =
-
-3x2-wide-top.gif
-
-/* 3x2 (top column full width) */
-.divup-wrap { 
-	overflow:hidden; 
-} 
-.divup { 
-	float:left;
-	width:200px;
-	margin-right:20px;
-	margin-bottom:20px; 
-} 
-.div-1 { 
-	width:640px; 
-}
-.div-1, div-4 { 
-	margin-right:0; 
-}
-
-For more advanced layouts, the 'diff' class has got you covered. More information on <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">the plugin docs page</a>.
+1. This is an example of how you could use the [divup] shorcode in your markup
+2. Given the markup example, this is how it would wrap your content in divs with automatic and custom classes and ids (firebug screenshot)
+3. You could then create a number of different column layouts by only changing the CSS (note: the custom classes and ids aren't necessary for creating the following grid layouts, they're just there to show you that you can add custom classes and ids if you want to). 4x1 grid CSS: .divup-wrap { overflow:hidden; } .divup { float:left;width:145px;margin-right:20px; } .mul-4 { margin-right:0; }
+4. 2x2 grid: .divup-wrap { overflow:hidden; } .divup { float:left;width:310px;margin-right:20px;margin-bottom:20px; } 
+.div-even { margin-right:0; }
+5. 3x2 grid:.divup-wrap { overflow:hidden; } .divup { float:left;width:200px;margin-right:20px;margin-bottom:20px; } .div-1{ width:640px; }.div-1, div-4 { margin-right:0; }
