@@ -125,3 +125,5 @@ Yes. Just send an email, and I'd be happy to help
 4. 2x2 grid: .divup-wrap { overflow:hidden; } .divup { float:left;width:310px;margin-right:20px;margin-bottom:20px; } 
 .div-even { margin-right:0; }
 5. 3x2 grid:.divup-wrap { overflow:hidden; } .divup { float:left;width:200px;margin-right:20px;margin-bottom:20px; } .div-1{ width:640px; }.div-1, div-4 { margin-right:0; }
+
+For more advanced layouts, the 'diff' class has got you covered. More information on the plugin docs page.
