@@ -13,11 +13,11 @@ Flexible & elegant way to split post/page content into divs. Divs are given ordi
 
 Client friendly way to separate your WordPress post or page content into divs with (optional) **custom CSS classes and ids**. Adding the shortcode **[divup]** in between some content will split the content into 2 **separate divs**. 
 
-You can enter as many [divup] shortcodes to a post or page as you like. Great for creating **columns** of content for magazine style websites while keeping shortcode markup to an absolute minimum. DivUp Content never uses inline styles, but it does automatically give divs fiendishly clever classes like first, last, div-1, div-2, div-3, and div-odd, div-even, mul-3, mul-4 (multiple of 3,4 etc). 
+You can enter as many [divup] shortcodes to a post or page as you like. Great for creating **columns** of content for magazine style websites while keeping shortcode markup to an absolute minimum. DivUp Content never uses inline styles, but it does automatically give divs fiendishly clever classes like first, last, div-1, div-2, div-3, and div-odd, div-even, mul-3, mul-4 (multiple of 1,2,3,4 etc). 
 
 Adding 'multiple of' classes to divs is a unique feature of DivUp Content that makes **grid layouts with multiple rows** a breeze. 
 
-= Example CSS =
+= 3 Column Example CSS =
 
 The CSS for a **3 column layout** (with 2 or more rows) in a 640px content area could be: 
 
@@ -33,6 +33,7 @@ The CSS for a **3 column layout** (with 2 or more rows) in a 640px content area 
 	margin-right:0; 
 }
 
+= 6 Column Example CSS =
 For a **6 column layout**, you would just change the CSS to:
 
 .divup-wrap { 
@@ -47,7 +48,8 @@ For a **6 column layout**, you would just change the CSS to:
 	margin-right:0; 
 }. 
 
-DivUp Content even has a CSS class solution to **multi-row grid layouts with varying column widths**.
+= Advanced Layouts =
+DivUp Content even has a CSS class solution to **multi-row grid layouts with varying column widths**. There is no type of layout for which it would be unsuitable. But a knowledge of CSS is required.
 
 For usage and more info, visit <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">sebastianwebb.co.uk/wordpress-plugins.html</a>.
 
@@ -113,7 +115,7 @@ For usage and more info, visit <a title="DivUp Content Docs"  href="http://www.s
 == Frequently Asked Questions ==
 
 = Is This Plugin Supported? =
-Yes. Just send an email, and I'd be happy to help
+Yes. Just send an email, and I'd be happy to help. Or, if you think the answer to your question might benefit others, please post your question in the <a title="Post your question in the Forum"  href="http://wordpress.org/tags/divup-content?forum_id=10" target=">DivUp Content Forum</a> (which I actively monitor).  
 
 = Where can I find documentation? =
 <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">Visit DivUp Content Info Page</a>.
@@ -122,6 +124,6 @@ Yes. Just send an email, and I'd be happy to help
 1. This is an example of how you could use the [divup] shorcode in your markup (note: the custom classes and ids aren't necessary for creating the following grid layouts, they're just there to show you that you can add custom classes and ids if you want to).
 2. Given the markup example above, this is how DivUp Content would wrap your content in divs with automatic and custom classes and ids (firebug screenshot)
 3. 4x1 grid CSS (assuming a 640px content area): .divup-wrap { overflow:hidden; } .divup { float:left;width:145px;margin-right:20px; } .mul-4 { margin-right:0; }
-4. 2x2 grid: .divup-wrap { overflow:hidden; } .divup { float:left;width:310px;margin-right:20px;margin-bottom:20px; } 
+4. 2x2 grid (assuming a 640px content area): .divup-wrap { overflow:hidden; } .divup { float:left;width:310px;margin-right:20px;margin-bottom:20px; } 
 .div-even { margin-right:0; }
-5. 3x2 grid:.divup-wrap { overflow:hidden; } .divup { float:left;width:200px;margin-right:20px;margin-bottom:20px; } .div-1{ width:640px; }.div-1, div-4 { margin-right:0; }. For more advanced layouts, the special 'diff' CSS class has got you covered. View the <a title="DivUp Content Docs" href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">docs</a> for more info.
+5. 3x2 grid (assuming a 640px content area):.divup-wrap { overflow:hidden; } .divup { float:left;width:200px;margin-right:20px;margin-bottom:20px; } .div-1{ width:640px; }.div-1, div-4 { margin-right:0; }. For more advanced layouts, the special 'diff' CSS class has you covered. View the <a title="DivUp Content Docs" href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">DivUp Content docs</a> for more info.
