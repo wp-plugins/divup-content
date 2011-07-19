@@ -115,7 +115,7 @@ For usage and more info, visit <a title="DivUp Content Docs"  href="http://www.s
 == Frequently Asked Questions ==
 
 = Is This Plugin Supported? =
-Yes. Just send an email, and I'd be happy to help. Or, if you think the answer to your question might benefit others, please post your question in the <a title="Post your question in the Forum"  href="http://wordpress.org/tags/divup-content?forum_id=10" target=">DivUp Content Forum</a> (which I actively monitor).  
+Yes. Just send an email, and I'd be happy to help. Or, if you think the answer to your question might benefit others, please post your question in the <a href="http://wordpress.org/tags/divup-content?forum_id=10">DivUp Content Forum</a> (which I actively monitor).  
 
 = Where can I find documentation? =
 <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">Visit DivUp Content Info Page</a>.
