@@ -4,7 +4,7 @@ Contributors: bastywebb
 Donate link: http://www.sebastianwebb.co.uk/wordpress-plugins.html
 Tags: content, columns, column, columnise, column layout, multiple columns, grid, layout, magazine, page, posts, magazine columns, magazine style, magazine layout, float, div, separate, separation, div up, split
 Requires at least: 2.8
-Tested up to: 3.2.1
+Tested up to: 3.3.1
 Stable tag: 1.0
 
 Flexible & elegant way to split post/page content into divs. Divs are given ordinal classes (div-1, div-2 etc). Minimal shortcode. Client Friendly
