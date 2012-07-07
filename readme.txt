@@ -4,7 +4,7 @@ Contributors: bastywebb
 Donate link: http://www.sebastianwebb.co.uk/wordpress-plugins.html
 Tags: content, columns, column, columnise, column layout, multiple columns, grid, layout, magazine, page, posts, magazine columns, magazine style, magazine layout, float, div, separate, separation, div up, split
 Requires at least: 2.8
-Tested up to: 3.3.1
+Tested up to: 3.4.1
 Stable tag: 1.0
 
 Flexible & elegant way to split post/page content into divs. Divs are given ordinal classes (div-1, div-2 etc). Minimal shortcode. Client Friendly
@@ -13,7 +13,7 @@ Flexible & elegant way to split post/page content into divs. Divs are given ordi
 
 Client friendly way to separate your WordPress post or page content into divs with (optional) **custom CSS classes and ids**. Adding the shortcode **[divup]** in between some content will split the content into 2 **separate divs**. 
 
-You can enter as many [divup] shortcodes to a post or page as you like. Great for creating **columns** of content for magazine style websites while keeping shortcode markup to an absolute minimum. DivUp Content never uses inline styles, but it does automatically give divs fiendishly clever classes like first, last, div-1, div-2, div-3, and div-odd, div-even, mul-3, mul-4 (multiple of 1,2,3,4 etc). 
+You can enter as many [divup] shortcodes to a post or page as you like. Great for creating **columns** of content for magazine style websites while keeping shortcode markup to an absolute minimum. DivUp Content never uses inline styles, but it does automatically give divs fiendishly clever classes like first, last, div-1, div-2, div-3, and div-odd, div-even, mul-3, mul-4 (multiple of 1,2,3,4 etc). You can then create your own style rules for the div in style.css  
 
 Adding 'multiple of' classes to divs is a unique feature of DivUp Content that makes **grid layouts with multiple rows** a breeze. 
 
