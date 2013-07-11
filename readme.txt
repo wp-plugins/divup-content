@@ -4,7 +4,7 @@ Contributors: bastywebb
 Donate link: http://www.sebastianwebb.co.uk/wordpress-plugins.html
 Tags: content, columns, column, columnise, column layout, multiple columns, grid, layout, magazine, page, posts, magazine columns, magazine style, magazine layout, float, div, separate, separation, div up, split
 Requires at least: 2.8
-Tested up to: 3.5.1
+Tested up to: 3.5.2
 Stable tag: 2.0
 
 Flexible & elegant way to split post/page content into divs. Divs are given ordinal classes (div-1, div-2 etc). Minimal shortcode. Client Friendly
@@ -18,6 +18,8 @@ You can enter as many [divup] shortcodes to a post or page as you like. Great fo
 Adding 'multiple of' classes to divs is a unique feature of DivUp Content that makes **grid layouts with multiple rows** a breeze.
 
 **NEW: You can also add multiple [startwrap] and [endwrap] shortcodes to control how the divs are wrapped in a wrapper div. This overrides the original auto-wrapper functionality if you choose to use it.**
+
+**NEW: Non-CSS Coders can now use DivUp Content to split their content into columns with the help of <a href="http://wordpress.org/plugins/microthemer/">Microthemer Lite</a> and an installable <a href="http://themeover.com/divup-column-styles/">CSS Settings Pack</a> (Plugin Pack). See <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">instructions here</a> (under the "Non-CSS Coders - You Have Options Now Thanks To Microloader & Microthemer Lite" heading)**
 
 = 3 Column Example CSS =
 
