@@ -3,7 +3,7 @@
 Plugin Name: DivUp Content
 Plugin URI: http://www.sebastianwebb.co.uk/wordpress-plugins.html
 Description: Client friendly way to separate your WordPress post or page content into divs with (optional) custom CSS classes and ids. Adding the shortcode [divup] in between some content will split the content into 2 separate divs. You can enter as many [divup] shortcodes to a post or page as you like. Great for creating columns of content for magazine style websites while keeping shortcode markup to an absolute minimum. DivUp Content never uses inline styles, but it does automatically give divs fiendishly clever classes like first, last, div-1, div-2, div-3 and div-odd, div-even, mul-3, mul-4 (multiple of 1,2,3,4 etc). Adding 'multiple of' classes to divs is a unique feature of DivUp Content that makes grid layouts with multiple rows a breeze. For instance, the CSS for a 3 column layout (with 2 or more rows) in a 640px content area could be: .divup-wrap { overflow:hidden; } .divup { float:left;width:200px;margin-right:20px; } .mul-3 { margin-right:0; }. For a 6 Column layout, you would just change the CSS to .divup-wrap { overflow:hidden; } .divup { float:left;width:100px;margin-right:8px; } .mul-6 { margin-right:0; }. DivUp Content even has a CSS class solution to multi-row grid layouts with varying column widths. 
-Version: 2.0
+Version: 2.1
 Author: Sebastian Web Design
 Author URI: http://www.sebastianwebb.co.uk
 
@@ -217,7 +217,7 @@ if (!is_admin()) {
 
 				// return the div markup
 				$wrap = "<div{$id_str}{$class_str}>
-							<div id='divup-id-".$this->global_div_count." '
+							<div id='divup-id-".$this->global_div_count."'
 							class='divup div-1 div-odd first total-div-".$this->global_div_count." '>";
 				++$this->total_wrap_count;
 				++$this->global_div_count;
@@ -290,7 +290,7 @@ if (!is_admin()) {
 				if ($id != '') {
 					$id_str = ' id="'.esc_attr($id).'"';  // add user id
 				} else {
-					$id_str = ' id="divup-id-'.$this->global_div_count.' "';
+					$id_str = ' id="divup-id-'.$this->global_div_count.'"';
 				}
 				// form the class attribute
 				if (strpos($class, 'diff') !== false) { // if div_count should be diffped
