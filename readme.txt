@@ -1,10 +1,9 @@
 === DivUp Content ===
 
 Contributors: bastywebb
-Donate link: http://www.sebastianwebb.co.uk/wordpress-plugins.html
 Tags: content, columns, column, columnise, column layout, multiple columns, grid, layout, magazine, page, posts, magazine columns, magazine style, magazine layout, float, div, separate, separation, div up, split
 Requires at least: 2.8
-Tested up to: 3.9
+Tested up to: 4.1
 
 Flexible & elegant way to split post/page content into divs. Divs are given ordinal classes (div-1, div-2 etc). Minimal shortcode. Client Friendly
 
@@ -51,8 +50,6 @@ For a **6 column layout**, you would just change the CSS to:
 
 = Advanced Layouts =
 DivUp Content even has a CSS class solution to **multi-row grid layouts with varying column widths**. There is no type of layout for which it would be unsuitable. **But a knowledge of CSS is required**.
-
-For usage and more info, visit <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">sebastianwebb.co.uk/wordpress-plugins.html</a>.
 
 == Installation ==
 
@@ -180,15 +177,11 @@ Some content on this page. Some content on this page. Some content on this page.
 
 Some content on this page. Some content on this page. Some content on this page. Some content on this page. Some content on this page. Some content on this page. Some content on this page. 
 
-For usage and more info, visit <a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">sebastianwebb.co.uk/wordpress-plugins.html</a>.
 
 == Frequently Asked Questions ==
 
 = Is This Plugin Supported? =
 Yes. Just send an email, and I'd be happy to help. Or, if you think the answer to your question might benefit others, please post your question in the <a href="http://wordpress.org/tags/divup-content?forum_id=10">DivUp Content Forum</a> (which I actively monitor).  
-
-= Where can I find documentation? =
-<a title="DivUp Content Docs"  href="http://www.sebastianwebb.co.uk/wordpress-plugins.html" target="_blank">Visit DivUp Content Info Page</a>.
 
 == Screenshots ==
 1. This is an example of how you could use the [divup] shorcode in your markup (note: the custom classes and ids aren't necessary for creating the following grid layouts, they're just there to show you that you can add custom classes and ids if you want to).
